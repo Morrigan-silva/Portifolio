@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    font-family: 'Titan One', cursive;
+}
+
+/*estilo da letra*/
+@import url('https://fonts.googleapis.com/css2?family= Titan +One & display=swap');
+/* font-family: 'Titan One', cursive; */
+  
+@font-face {
+    src: url(Lemon.zip/Lemon-Regular);
+    font-family: 'Lemon-Regular';    
+    font-weight: normal;
+} 
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #9496c0;
+}
+  
+.cab-img{
+    width: 7%;
+}
+  
+.item2{
+    display: flex;
+    gap: 100px;
+}
+
+.im{
+    width: 90px;
+
+}
+
+.cab-menu{
+    display: flex;
+    gap: 100px;
+}
+  
+.item{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*corpo*/
+
+.container {
+    background-color: #eaebfc;
+    min-height: 60vh;
+    padding: 30px;
+}
+
+/*curriculo*/
+
+.products-container{
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}
+
+.curr{
+    color: #fff;
+    background-color: #9496c0;
+    border-radius: 20px;
+    padding: 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*dados pessoais*/
+.dados {
+    width: 30%;
+    margin: 1% 1%;
+    padding: 1px;
+    background-color: #adb1f4;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.tipo{
+    margin: 15px;
+    background-color: #9496c0;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.my-foto {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    background-size: cover;
+    background-image: url('img/ifma.png');
+}
+
+.fo{
+    width: 67%;
+    margin: 17%;
+    border-radius: 15px;
+}
+
+/*informacoes academicas*/
+
+.info{
+    width: 90%;
+    margin: 1% 1%;
+    padding: 25px;
+    background-color: #adb1f4;
+    border-radius: 30px;
+    color: white;
+}
+
+.tip{
+    margin: 15px;
+    background-color: #9496c0;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+/*rodapé*/
+footer {
+  background-color: #9496c0;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+  

@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+/*estilo da letra*/
+@import url('https://fonts.googleapis.com/css2?family= Titan +One & display=swap');
+/* font-family: 'Titan One', cursive; */
+
+/*deslizamento lizo*/
+html{
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    list-style: none; /*tira o dois pontos da lista*/
+    display: flex; /*a lista ficou alinhada na horizontal*/
+    gap: 5%; /*espaçamento da lista*/
+    align-items: center; /*para centralizar verticalmente*/
+    position: fixed; /*fixo no topo*/
+    height: 3rem; /*altura*/
+    width: 100%; /*ocupar toda a linha*/
+    flex-direction: row;
+    background-image: linear-gradient(to top, #c6c9f8,#eaebfc);
+    justify-content: center;
+}
+
+nav ul a{
+    color: #9496c0;
+    font-size: 20px; /*tamanho das letras*/
+    text-decoration: none; /*retira o sublinhado*/
+    font-family: 'Titan One', cursive;
+}
+
+button{
+    color: #9496c0;
+    background: transparent;
+    border: solid 1px #9496c0;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+nav ul a button:hover{
+    background-color: #eaebfc;
+    transition: 0.5s;
+}
+
+/*-----------início-----------*/
+#inicio{
+    min-height: 100vh;
+    padding-top: 3rem; /*grossura do cabeçalho*/
+    background-image: url(/img/iniciio.png);
+    background-size: cover;
+    background-position: right bottom;
+    padding: 20% 10% 20% 10%; 
+}
+
+.page1 h3{
+    font-size: 30px;
+}
+
+.page1 h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.page1 span{
+    font-family: 'Titan One', cursive;
+    color: #9496c0;
+}
+
+.page1 p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/*-----------sobre mim-----------*/
+#sobre{
+    min-height: 45vh;
+    background-image: linear-gradient(to top, #eaebfc,#AE92E6);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5.5rem;
+    padding: 5rem;
+}
+
+#sobre h1{
+    font-size: 50px; /* tamanho da letra */
+    font-family: 'Titan One', cursive; 
+    background-image: linear-gradient(to bottom, #eaebfc, purple, #eaebfc);    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* sombreamento da div */
+    height: 10%;/* altura */
+    width: 70%; /* largura */
+    background-color: #c6c9f8; /* cor de fundo */
+    color: purple; /* cor da fonte */
+    border-radius: 20px; /* borda arredondada */
+    margin: 1%; /* margem */
+    font-family: 'Titan One', cursive; /* fonte */
+    font-size: 160%; /* tamanho da fonte */
+}
+
+.conteudo{
+    margin: 5px;
+    font-size: 30px;
+    background-color: #eaebfc;
+    border-radius: 20px;
+}
+
+.conteudo p{
+    font-family: 'Titan One', cursive;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ev{
+    height: 21rem;
+    border-radius: 20px;
+}
+
+/*-----------projetos-----------*/
+#projetos{
+    min-height: 32vh;
+    padding-top: 4rem; /*grossura do cabeçalho*/
+    background-color: #eaebfc;
+    padding: 5%;
+    text-align: center;
+}
+
+#projetos h1{
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    background-image: linear-gradient(to bottom, #AE92E6, #9496c0, #AE92E6);    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page3{
+    display: flex;
+    flex-direction: row;
+    background-color: #9496c0;
+    border-radius: 50px;
+    align-items: center;
+    padding: 10px;
+    padding-top: 1rem;
+    margin-top: 15px;
+}
+
+.espaco{
+    background-color: #eaebfc;
+    border-radius: 25px;
+    margin: 4%;
+    text-align: center;
+}
+
+.espaco p{
+    font-size: 150%;
+    font-family: 'Titan One', cursive;
+    color: #9496c0;
+    border-radius: 100%;
+}
+
+.img{
+    width: 30%;
+}
+
+.page3 button :hover{
+    background-color: #EEB0FF;
+    border-radius: 25px;
+}
+
+/*-----------habilidades-----------*/
+#habilidades{
+    min-height: 55vh;
+    padding-top: 4rem; /*grossura do cabeçalho*/
+    background-color: #eaebfc;
+
+}
+
+.page4{
+    margin: 0 10% 20% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* sombreamento da div */
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#habilidades h1{
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    background-color: #eaebfc;
+    color: #AE92E6;
+    background-image: linear-gradient(to bottom, #AE92E6, #9496c0, #AE92E6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#habilidades h4{
+    font-size: 40px;
+    font-family: 'Titan One', cursive;
+    color: #48D1CC
+    ;
+}
+
+#habilidades p{
+    font-size: 20px;
+    color: purple;
+}
+/*-----------contatos-----------*/
+#contatos{
+    min-height: 65vh;
+    padding-top: 1rem; /*grossura do cabeçalho*/
+    background-color: #c6c9f8;
+}
+
+#contatos img{
+    width: 5%;
+}
+
+.page5{
+    text-align: center;
+    margin: 5%;
+    background-color: #eaebfc;
+    padding: 3%;
+    border-radius: 20px;
+    line-height: 200%;
+}
+
+.a h2{
+    font-size: 250%;
+    font-family: 'Titan One', cursive;
+    color: #9496c0;
+}
+
+.a h4{
+    font-size: 120%;
+    margin-top: 2%;
+    font-family: 'Titan One', cursive;
+    color: #9496c0;
+}
+
+.a p{
+    font-size: 120%;
+    font-family: 'Titan One', cursive;
+    color: #9496c0;
+}
+
+.folder{
+    background-color: #AE92E6;
+    border-radius: 20px;
+    color: #eaebfc;
+}
